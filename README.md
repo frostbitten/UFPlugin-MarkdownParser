@@ -2,7 +2,7 @@
 
 Homepage for Carsten Brandt's markdown library: https://github.com/cebe/markdown
 
-## By [Matthew Seremet](http://matthewseremet.com)
+**By [Matthew Seremet](https://github.com/frostbitten)**
 
 This UserFrosting plugin offers the ability to parse markdown with a simple twig filter. Parseing is taken care of by cebe's [markdown library](https://github.com/cebe/markdown).
 
@@ -14,17 +14,17 @@ Put this folder into the "plugins" directory of your userfrostig setup. Run `com
 
 First, you'll need to capture the text you want to parse with twig's `{% set %}` tag. Then, simply return the text using the `md` filter.
 
-#### md( type )
+#### the `md( type )` filter
 
-if type == **git** 
+* if type == **git** 
 	parse as *Github Markdown*;
-elseif type == **extra**
+* elseif type == **extra**
 	parse as *Markdown Extra*;
-**else**
+* **else**
 	parse as *Markdown*;
 
+#### example code
 ```
-
 {% set test %}
 # A First Level Header
 
