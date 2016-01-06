@@ -1,0 +1,11 @@
+{
+    "name": "userfrosting-plugin-markdown",
+    "type": "project",
+    "description": "Integrates the Markdown Parser from Carsten Brandt",
+    "license" : "MIT",
+    "require-dev": {
+	},
+    "require": {
+		"cebe/markdown":"*"
+    }
+}
