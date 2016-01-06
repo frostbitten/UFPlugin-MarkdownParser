@@ -20,7 +20,7 @@ First, you'll need to capture the text you want to parse with twig's `{% set %}`
 	parse as *Github Markdown*;
 * elseif type == **extra**
 	parse as *Markdown Extra*;
-* **else**
+* else
 	parse as *Markdown*;
 
 #### example code
