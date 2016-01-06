@@ -9,7 +9,7 @@ This UserFrosting plugin offers the ability to parse markdown with a simple twig
 ## Installation
 
 1. Put this folder into the "plugins" directory of your UserFrosting setup.
-2. Run `composer update` to get the necessary package. 
+2. Run `composer update` in the userfrosting directory. 
 3. Done. See "How to use" below
 
 ## How to use
