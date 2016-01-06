@@ -4,7 +4,7 @@ Homepage for Carsten Brandt's markdown library: https://github.com/cebe/markdown
 
 **By [Matthew Seremet](https://github.com/frostbitten)**
 
-This UserFrosting plugin offers the ability to parse markdown with a simple twig filter. Parseing is taken care of by cebe's [markdown library](https://github.com/cebe/markdown).
+This UserFrosting plugin offers the ability to parse markdown with a simple twig filter. Parsing is taken care of by cebe's [markdown library](https://github.com/cebe/markdown).
 
 ## Installation
 
