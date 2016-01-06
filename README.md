@@ -8,9 +8,11 @@ This UserFrosting plugin offers the ability to parse markdown with a simple twig
 
 ## Installation
 
-Put this folder into the "plugins" directory of your userfrostig setup. Run `composer update` to get the necessary package. 
+1. Put this folder into the "plugins" directory of your userfrostig setup.
+2. Run `composer update` to get the necessary package. 
+3. Done. See "How to use" below
 
-### How to use
+## How to use
 
 First, you'll need to capture the text you want to parse with twig's `{% set %}` tag. Then, simply return the text using the `md` filter and a `raw` filter after.
 
