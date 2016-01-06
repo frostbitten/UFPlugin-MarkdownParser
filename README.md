@@ -12,7 +12,7 @@ Put this folder into the "plugins" directory of your userfrostig setup. Run `com
 
 ### How to use
 
-First, you'll need to capture the text you want to parse with twig's `{% set %}` tag. Then, simply return the text using the `md` filter.
+First, you'll need to capture the text you want to parse with twig's `{% set %}` tag. Then, simply return the text using the `md` filter and a `raw` filter after.
 
 #### the `md( type )` filter
 
